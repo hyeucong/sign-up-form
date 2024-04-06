@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #404040;
+}
+
+.left{
+    min-width: 50vw;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: radial-gradient(circle, rgba(253,253,246,1) 0%, rgba(236,245,172,1) 100%);
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-shadow: 0 2px #f6efc5;
+}
+
+h2{
+    font-size: 3.25rem;
+}
+
+p{
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.bottom-text{
+    font-weight: 900;
+}
+
+.right{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 50vw;
+}
+
+.subheading {
+    color: #575757;
+    font-weight: 900;
+    margin-bottom: 0.5em;
+}
+
+.form-container{
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+    margin: 0.5rem 0;
+}
+
+.btn{
+    font-weight: 600;
+    color: #fff;
+    background-color: #212121;
+    border: none;
+    width: 100%;
+    padding: 12px 16px;
+    font-size: inherit;
+    margin: 12px 0;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+    text-transform: uppercase;
+}
+
+.subheading-text{
+    text-align: left;
+    font-size: 1.125rem;
+    line-height: 1.35;
+}
+
+.form-container div{
+    margin: 20px;
+}
+
+@media (min-width: 576px) {
+    body {
+        display: flex;
+    }
+
+    h1 {
+        font-size: 4vw;
+    }
+
+    h2 {
+        font-size: 3.25rem;
+    }
+}
