@@ -46,6 +46,7 @@ p{
     flex-direction: column;
     justify-content: space-between;
     min-width: 50vw;
+    min-height: 100dvh;
 }
 
 .subheading {
@@ -104,7 +105,7 @@ input{
     }
 
     h1 {
-        font-size: 4vw;
+        font-size: 4dvw;
     }
 
     h2 {
