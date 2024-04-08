@@ -12,8 +12,8 @@ body {
 }
 
 .left{
-    min-width: 50vw;
-    min-height: 100vh;
+    min-width: 50dvw;
+    min-height: 100dvh;
     text-align: center;
     display: flex;
     flex-direction: column;
